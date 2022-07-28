@@ -1,0 +1,40 @@
+.title {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.01em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 8vh;
+  font-size: 1.5em;
+}
+
+.probTitle {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.01em;
+  font-weight: normal;
+  padding-top: 6vh;
+  margin-bottom: 2%;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 740px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .boxes {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+  .bg {
+    background-color: var(--main-bg-color);
+  }
+  .title {
+    color: var(--main-bg-color);
+    margin-top: 2vh;
+    margin-bottom: 0;
+  }
+}

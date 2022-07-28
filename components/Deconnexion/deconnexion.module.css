@@ -1,0 +1,29 @@
+.accountContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.btn {
+  margin-bottom: 5%;
+  width: 80%;
+  height: 50px;
+  color: #412e68;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 740px) {
+  .btn {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    margin-top: 2vh;
+  }
+}

@@ -1,0 +1,141 @@
+.title {
+  text-align: center;
+  color: #412e68;
+  font-size: 2rem;
+}
+
+.form {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailInput {
+  width: 350px;
+  height: 65px;
+  border: 1px solid #ffff;
+  border-radius: 20px;
+  background-image: url(/images/mail.png);
+  background-size: 50px;
+  background-position: bottom 7px left 10px;
+  background-repeat: no-repeat;
+  box-shadow: rgba(65, 46, 104, 0.2) 0px 10px 25px -5px inset,
+    rgba(65, 46, 104, 0.2) 0px 10px 10px -5px inset;
+  text-align: center;
+  font-size: 1rem;
+  margin: 2vh;
+}
+
+.emailInput::placeholder {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.pwdInput {
+  margin: 2vh;
+  width: 350px;
+  height: 65px;
+  border: 1px solid #ffff;
+  border-radius: 20px;
+  box-shadow: rgba(65, 46, 104, 0.2) 0px 10px 25px -5px inset,
+    rgba(65, 46, 104, 0.2) 0px 10px 10px -5px inset;
+  background-image: url(/images/padlock.png);
+  background-size: 50px;
+  background-position: bottom 7px left 10px;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 1rem;
+}
+.pwdInput::placeholder {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.btnConnexion {
+  width: 300px;
+  height: 50px;
+  background-color: #ff9083;
+  color: #ffff;
+  border: 1px solid #ff9083;
+  border-radius: 80px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  font-size: 18px;
+  margin-top: 50px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.googleBtn {
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url(/images/google-logo.png);
+  background-size: 25px;
+  background-position: bottom 13px left 10px;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 1rem;
+  color: #412e68;
+  margin-top: 50px;
+}
+
+.links {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.link {
+  color: #412e68;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 740px) {
+  .title {
+    font-size: 3rem;
+  }
+  .emailInput {
+    width: 500px;
+    height: 65px;
+    font-size: 1.5rem;
+  }
+  .pwdInput {
+    width: 500px;
+    height: 65px;
+    font-size: 1.5rem;
+  }
+  .btnConnexion {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wave {
+    display: none;
+  }
+
+  .form {
+    height: 600px;
+  }
+
+  .btnConnexion {
+    margin-top: 5%;
+  }
+
+  .links {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+  }
+}
